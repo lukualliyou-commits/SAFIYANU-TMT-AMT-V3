@@ -1,0 +1,89 @@
+<Window x:Class="EmrsTool.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="SAFIYANU TMT AMT ULTIMATE PRO V3"
+Height="700" Width="1100"
+WindowStartupLocation="CenterScreen"
+Background="#10141D">
+
+<Grid Margin="20">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <Border Background="#1B2433"
+            CornerRadius="12"
+            Padding="20">
+        <StackPanel>
+            <TextBlock Text="SAFIYANU TMT AMT"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       Foreground="#FF9F1C"/>
+
+            <TextBlock Text="ULTIMATE PRO V3 | PHONE REPAIR CENTER"
+                       FontSize="14"
+                       Foreground="White"
+                       Margin="0,6,0,0"/>
+        </StackPanel>
+    </Border>
+
+    <ScrollViewer Grid.Row="1"
+                  Margin="0,20,0,0"
+                  VerticalScrollBarVisibility="Auto">
+
+        <UniformGrid Columns="3">
+
+            <Button Content="PHONE DATABASE"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="USB DETECTION"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="FLASHING CENTER"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="ANDROID REPAIR"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="FIRMWARE CENTER"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="FRP SERVICE"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="CUSTOMERS"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="APPOINTMENTS"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="PAYMENT RECORDS"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="BACKUP & RESTORE"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="SETTINGS"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+            <Button Content="ABOUT SAFIYANU TMT"
+                    Margin="8" Height="100"
+                    FontSize="17"/>
+
+        </UniformGrid>
+    </ScrollViewer>
+</Grid>
+
+</Window>
