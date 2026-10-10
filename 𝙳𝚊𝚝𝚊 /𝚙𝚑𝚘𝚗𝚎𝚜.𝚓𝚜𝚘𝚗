@@ -1,0 +1,32 @@
+[
+{
+"Brand": "TECNO",
+"Model": "Spark 10",
+"ModelNumber": "KI5q",
+"Chipset": "MediaTek"
+},
+{
+"Brand": "TECNO",
+"Model": "Spark 10 Pro",
+"ModelNumber": "KI7",
+"Chipset": "MediaTek"
+},
+{
+"Brand": "itel",
+"Model": "A70",
+"ModelNumber": "A665L",
+"Chipset": "Unisoc"
+},
+{
+"Brand": "Infinix",
+"Model": "Hot 40i",
+"ModelNumber": "X6528",
+"Chipset": "Unisoc"
+},
+{
+"Brand": "Samsung",
+"Model": "Galaxy A14 4G",
+"ModelNumber": "SM-A145",
+"Chipset": "MediaTek / Exynos, gwargwadon bambancin na'ura"
+}
+]
